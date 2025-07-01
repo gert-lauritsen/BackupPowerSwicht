@@ -10,12 +10,10 @@ Perfekt til udstyr, der kræver kontinuerlig drift – f.eks. routere, overvågn
 - **Indgangsspænding (Vin):** 9–80 V DC
 - **Maks. udgangsstrøm:** 8,5 A (begrænset af stik og printbaner)
 - **Passiv og vedligeholdelsesfri**
-- **Kompakt design med 3D-printet kabinet**
 
 ## Indhold
 
-- `schematic/BackupPowerSwitch.pdf` – Skematisk diagram
-- `case/` – STL-filer til 3D-printet kabinet
+- `schematic/BackupPowerSwitch.pdf` – (Skematisk diagram)[https://github.com/gert-lauritsen/BackupPowerSwicht/blob/main/BatteryBackup.pdf]
 - `README.md` – Denne dokumentation
 
 ## Funktion
