@@ -13,7 +13,7 @@ Perfekt til udstyr, der kræver kontinuerlig drift – f.eks. routere, overvågn
 
 ## Indhold
 
-- `schematic/BackupPowerSwitch.pdf` – (Skematisk diagram)[https://github.com/gert-lauritsen/BackupPowerSwicht/blob/main/BatteryBackup.pdf]
+- `schematic/BackupPowerSwitch.pdf` – !(Skematisk diagram)[https://github.com/gert-lauritsen/BackupPowerSwicht/blob/main/BatteryBackup.pdf]
 - `README.md` – Denne dokumentation
 
 ## Funktion
