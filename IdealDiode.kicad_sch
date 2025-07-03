@@ -1069,6 +1069,12 @@
 		(uuid "1888d073-f989-47d7-b568-652e9647da76")
 	)
 	(junction
+		(at 121.92 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57b5c99f-c015-4412-a8b1-0ff79a348a60")
+	)
+	(junction
 		(at 101.6 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1079,12 +1085,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7219d2c2-1832-42fc-9fe7-cbe2d6dd3864")
-	)
-	(junction
-		(at 124.46 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f50865c-57ac-4517-8ad8-0739edcde6f5")
 	)
 	(junction
 		(at 127 110.49)
@@ -1144,16 +1144,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 90.17) (xy 127 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57fe6480-ae75-4326-badc-e4e0015dd2c1")
-	)
-	(wire
-		(pts
 			(xy 91.44 110.49) (xy 91.44 100.33)
 		)
 		(stroke
@@ -1181,6 +1171,16 @@
 			(type default)
 		)
 		(uuid "6fe6adc1-6047-4389-8fc2-cfc3a85b3487")
+	)
+	(wire
+		(pts
+			(xy 124.46 90.17) (xy 121.92 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7664dfaa-0f2e-46b2-b2e1-48a6716cacac")
 	)
 	(wire
 		(pts
@@ -1224,7 +1224,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 82.55) (xy 148.59 82.55)
+			(xy 132.08 82.55) (xy 148.59 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1244,6 +1244,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 90.17) (xy 121.92 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c97e8dee-b444-4b2d-968d-f8fb16fe37f1")
+	)
+	(wire
+		(pts
 			(xy 91.44 100.33) (xy 91.44 82.55)
 		)
 		(stroke
@@ -1254,7 +1264,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 82.55) (xy 119.38 82.55)
+			(xy 91.44 82.55) (xy 121.92 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1676,7 +1686,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:FDMT800100DC")
-		(at 124.46 85.09 270)
+		(at 127 85.09 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1686,7 +1696,7 @@
 		(fields_autoplaced yes)
 		(uuid "89e0b32b-5aa5-40ce-9a20-b45b39156775")
 		(property "Reference" "Q1"
-			(at 124.46 76.2 90)
+			(at 127 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1694,7 +1704,7 @@
 			)
 		)
 		(property "Value" "FDMT800100DC"
-			(at 124.46 78.74 90)
+			(at 127 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1702,7 +1712,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:PQFN_8x8"
-			(at 122.555 80.01 0)
+			(at 125.095 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1713,7 +1723,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDMT800100DC-D.pdf"
-			(at 120.65 80.01 0)
+			(at 123.19 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1723,7 +1733,7 @@
 			)
 		)
 		(property "Description" "24A Id, 100V Vds, N-Channel Dual Cool PowerTrench MOSFET, 2.95mOhm Ron, 111nC Qgmax, -55 to 150 °C, 8x8mm MLP"
-			(at 124.46 85.09 0)
+			(at 127 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
