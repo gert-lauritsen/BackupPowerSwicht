@@ -7,7 +7,7 @@ Perfekt til udstyr, der kræver kontinuerlig drift – f.eks. routere, overvågn
 - **Automatisk failover** mellem hoved- og backup-strømforsyning
 - **LTC4359-baseret**: effektiv og tabsfri styring af strømretningen
 - **Ingen mikrokontroller eller software**
-- **Indgangsspænding (Vin):** 9–80 V DC
+- **Indgangsspænding (Vin):** 4–80 V DC
 - **Maks. udgangsstrøm:** 8,5 A (begrænset af stik og printbaner)
 - **Passiv og vedligeholdelsesfri**
 
