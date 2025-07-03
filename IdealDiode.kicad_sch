@@ -270,7 +270,169 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Power_Management:LTC4357DCB"
+		(symbol "Diode:SMAJ24CA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMAJ24CA"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "400W bidirectional Transient Voltage Suppressor, 24.0Vr, SMA(DO-214AC)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "bidirectional diode TVS voltage suppressor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMAJ24CA_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMAJ24CA_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Power_Management:LTC4359-DCB"
 			(pin_names
 				(offset 1.016)
 			)
@@ -278,7 +440,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 6.35 6.35 0)
+				(at -5.08 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -286,7 +448,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "LTC4357DCB"
+			(property "Value" "LTC4359-DCB"
 				(at 6.35 -6.35 0)
 				(effects
 					(font
@@ -305,7 +467,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/4357fd.pdf"
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ltc4359.pdf"
 				(at 0 -6.35 0)
 				(effects
 					(font
@@ -314,7 +476,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Ideal diode controller, 9-80V operation, DFN-6"
+			(property "Description" "Ideal diode controller with reverse input protection, DFN-6"
 				(at 0 0 0)
 				(effects
 					(font
@@ -323,7 +485,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "ideal-diode or-ing"
+			(property "ki_keywords" "ideal-diode or-ing reverse-protection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -341,7 +503,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LTC4357DCB_0_1"
+			(symbol "LTC4359-DCB_0_1"
 				(rectangle
 					(start -5.08 7.62)
 					(end 5.08 -7.62)
@@ -354,8 +516,8 @@
 					)
 				)
 			)
-			(symbol "LTC4357DCB_1_1"
-				(pin input line
+			(symbol "LTC4359-DCB_1_1"
+				(pin power_in line
 					(at -7.62 0 0)
 					(length 2.54)
 					(name "IN"
@@ -365,7 +527,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -373,11 +535,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -5.08 -2.54 0)
+				(pin input line
+					(at -7.62 -2.54 0)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "~{SHDN}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -392,10 +553,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at -2.54 10.16 270)
+				(pin input line
+					(at 0 10.16 270)
 					(length 2.54)
-					(name "GATE"
+					(name "SRC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -413,14 +574,14 @@
 				(pin power_in line
 					(at 0 -10.16 90)
 					(length 2.54)
-					(name "GND"
+					(name "Vss"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -428,17 +589,17 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 2.54 10.16 270)
 					(length 2.54)
-					(name "OUT"
+					(name "GATE"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -449,7 +610,7 @@
 				(pin power_in line
 					(at 2.54 -10.16 90)
 					(length 2.54)
-					(name "PAD"
+					(name "Pad"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -464,17 +625,17 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "Vdd"
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -902,36 +1063,68 @@
 		(uuid "01056900-2520-49bd-a90f-bd301d96c4c7")
 	)
 	(junction
-		(at 115.57 100.33)
+		(at 91.44 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "321f7b3d-8b04-40fa-9582-7b63b3e4d9a1")
+		(uuid "1888d073-f989-47d7-b568-652e9647da76")
 	)
 	(junction
-		(at 129.54 82.55)
+		(at 101.6 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "92822c58-eaac-4e48-85e9-9955108e13aa")
+		(uuid "5ecfecf7-ae02-468a-80c5-fe5b0ebd9ccc")
 	)
 	(junction
-		(at 129.54 110.49)
+		(at 124.46 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ea91ce22-a2ad-42c8-a5be-f259dd00bdd6")
+		(uuid "7219d2c2-1832-42fc-9fe7-cbe2d6dd3864")
+	)
+	(junction
+		(at 124.46 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f50865c-57ac-4517-8ad8-0739edcde6f5")
+	)
+	(junction
+		(at 127 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80c100db-adb7-4707-aa98-cd751d04c436")
 	)
 	(wire
 		(pts
-			(xy 134.62 100.33) (xy 148.59 100.33)
+			(xy 132.08 100.33) (xy 148.59 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0770ba0a-8874-4bad-ab39-e625308ae3c6")
+		(uuid "20b2533d-0160-480c-b3bc-1e8cf9ed7905")
 	)
 	(wire
 		(pts
-			(xy 148.59 93.98) (xy 148.59 100.33)
+			(xy 124.46 110.49) (xy 101.6 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "280ba508-d83e-4026-9ac8-6710a5db5421")
+	)
+	(wire
+		(pts
+			(xy 124.46 116.84) (xy 124.46 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30f8ec7e-575d-42b2-b25e-7ae78e95595e")
+	)
+	(wire
+		(pts
+			(xy 148.59 82.55) (xy 148.59 100.33)
 		)
 		(stroke
 			(width 0)
@@ -941,7 +1134,27 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 100.33) (xy 115.57 82.55)
+			(xy 101.6 100.33) (xy 116.84 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "435b423d-8095-4c55-9d3b-e6c185fe73f6")
+	)
+	(wire
+		(pts
+			(xy 124.46 90.17) (xy 127 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57fe6480-ae75-4326-badc-e4e0015dd2c1")
+	)
+	(wire
+		(pts
+			(xy 91.44 110.49) (xy 91.44 100.33)
 		)
 		(stroke
 			(width 0)
@@ -951,7 +1164,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 105.41) (xy 115.57 106.68)
+			(xy 91.44 115.57) (xy 91.44 116.84)
 		)
 		(stroke
 			(width 0)
@@ -961,13 +1174,23 @@
 	)
 	(wire
 		(pts
-			(xy 127 110.49) (xy 129.54 110.49)
+			(xy 127 110.49) (xy 148.59 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6fe6adc1-6047-4389-8fc2-cfc3a85b3487")
+	)
+	(wire
+		(pts
+			(xy 124.46 110.49) (xy 124.46 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b322b6a-51e7-46f2-96d0-071b731aad7c")
 	)
 	(wire
 		(pts
@@ -978,6 +1201,26 @@
 			(type default)
 		)
 		(uuid "7c3c379b-8c4a-410e-a03f-077037559f52")
+	)
+	(wire
+		(pts
+			(xy 124.46 110.49) (xy 127 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86b690b8-1c74-4fa4-a8fc-1a6427f07fe1")
+	)
+	(wire
+		(pts
+			(xy 101.6 110.49) (xy 101.6 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8af1eff3-981e-4e13-af04-ddfed15bea6e")
 	)
 	(wire
 		(pts
@@ -1001,47 +1244,17 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 82.55) (xy 148.59 88.9)
+			(xy 91.44 100.33) (xy 91.44 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4250ce0-ff3b-414e-83c8-a7dc3fbcfb4e")
+		(uuid "cc7535bc-f9ca-4f0b-8aa0-e9dd42aeb4bd")
 	)
 	(wire
 		(pts
-			(xy 129.54 110.49) (xy 148.59 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b89276c8-99b3-4981-8afe-f1b5180797ef")
-	)
-	(wire
-		(pts
-			(xy 119.38 100.33) (xy 115.57 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfad10cc-8a55-45e3-b28d-c14eb53d1191")
-	)
-	(wire
-		(pts
-			(xy 129.54 82.55) (xy 129.54 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da85d181-9bcb-42dc-a2b7-06d693fb30a2")
-	)
-	(wire
-		(pts
-			(xy 115.57 82.55) (xy 119.38 82.55)
+			(xy 91.44 82.55) (xy 119.38 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1049,9 +1262,19 @@
 		)
 		(uuid "ecea5365-f897-42c6-bd70-b7f665fe393f")
 	)
+	(wire
+		(pts
+			(xy 91.44 100.33) (xy 101.6 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f78e69e5-ed08-4ef2-a727-3e76216fea17")
+	)
 	(hierarchical_label "Vin"
 		(shape input)
-		(at 115.57 82.55 180)
+		(at 91.44 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1073,7 +1296,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 115.57 102.87 0)
+		(at 91.44 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1082,7 +1305,7 @@
 		(fields_autoplaced yes)
 		(uuid "055d1bb4-9734-4727-a6e9-1a521334c46f")
 		(property "Reference" "C5"
-			(at 118.11 101.6062 0)
+			(at 93.98 111.7662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1091,7 +1314,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 118.11 104.1462 0)
+			(at 93.98 114.3062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1100,7 +1323,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 115.57 102.87 0)
+			(at 91.44 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1109,7 +1332,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 102.87 0)
+			(at 91.44 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1118,7 +1341,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 115.57 102.87 0)
+			(at 91.44 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1146,44 +1369,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 148.59 91.44 0)
+		(lib_id "Diode:SMAJ24CA")
+		(at 101.6 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0b8bcc88-3507-4f24-8826-16c7367546fb")
-		(property "Reference" "R1"
-			(at 151.13 90.1699 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100"
-			(at 151.13 92.7099 0)
+		(uuid "4b151ee6-5347-42fb-9d13-a4fe7febb7f4")
+		(property "Reference" "D1"
+			(at 104.14 102.8699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 148.59 91.44 0)
+		(property "Value" "SMAJ24CA"
+			(at 104.14 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 148.59 91.44 0)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 106.68 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1191,8 +1405,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 148.59 91.44 0)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 101.6 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 24.0Vr, SMA(DO-214AC)"
+			(at 101.6 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1201,19 +1424,107 @@
 			)
 		)
 		(pin "1"
-			(uuid "eadd0aa9-3edf-4614-86c3-b66bf3e08185")
+			(uuid "9b7f5048-5841-4cf4-a81b-a0b18513cb91")
 		)
 		(pin "2"
-			(uuid "ae9863fd-05a2-4b9d-907c-829405ca7249")
+			(uuid "5af8cf01-7273-4a67-802c-92299ed3b4c3")
 		)
 		(instances
-			(project "BatteryBackup"
+			(project ""
 				(path "/7a4f4d51-a773-4c8a-9ecd-90b5a3bf812e/872127cf-2db0-4401-823f-81109a28809d"
-					(reference "R2")
+					(reference "D2")
 					(unit 1)
 				)
 				(path "/7a4f4d51-a773-4c8a-9ecd-90b5a3bf812e/dfa92feb-fac2-4928-8cb8-e6a77f3a865b"
-					(reference "R1")
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Management:LTC4359-DCB")
+		(at 124.46 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5af293aa-2b68-4378-bece-e66cfaf91275")
+		(property "Reference" "U3"
+			(at 137.16 93.9098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTC4359-DCB"
+			(at 137.16 96.4498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:DFN-6-1EP_3x2mm_P0.5mm_EP1.65x1.35mm"
+			(at 130.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ltc4359.pdf"
+			(at 124.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ideal diode controller with reverse input protection, DFN-6"
+			(at 124.46 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5baf683f-f806-45a6-970e-ced8d94938d4")
+		)
+		(pin "4"
+			(uuid "0025ac71-2913-4d6c-99aa-350c31972d06")
+		)
+		(pin "5"
+			(uuid "46fe7eb0-d757-4167-a699-70f6dc74d872")
+		)
+		(pin "3"
+			(uuid "e6439690-e817-4b91-810f-491af5d86dce")
+		)
+		(pin "6"
+			(uuid "893422b5-8f12-415a-afb8-ae3d10c7b2d7")
+		)
+		(pin "7"
+			(uuid "955d958c-5b95-44b9-8c1f-0daad90138ae")
+		)
+		(pin "1"
+			(uuid "ba64259c-d846-44bb-964f-ac6a88c04efb")
+		)
+		(instances
+			(project ""
+				(path "/7a4f4d51-a773-4c8a-9ecd-90b5a3bf812e/872127cf-2db0-4401-823f-81109a28809d"
+					(reference "U4")
+					(unit 1)
+				)
+				(path "/7a4f4d51-a773-4c8a-9ecd-90b5a3bf812e/dfa92feb-fac2-4928-8cb8-e6a77f3a865b"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -1221,7 +1532,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 110.49 0)
+		(at 124.46 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1230,7 +1541,7 @@
 		(fields_autoplaced yes)
 		(uuid "62c78eaa-5426-473b-82ae-ea73c12edb2c")
 		(property "Reference" "#PWR06"
-			(at 129.54 116.84 0)
+			(at 124.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,7 +1550,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 115.57 0)
+			(at 124.46 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1247,7 +1558,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 110.49 0)
+			(at 124.46 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1256,7 +1567,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 110.49 0)
+			(at 124.46 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1265,7 +1576,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 110.49 0)
+			(at 124.46 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1308,7 +1619,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1,5uF"
 			(at 151.13 107.9562 0)
 			(effects
 				(font
@@ -1444,7 +1755,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 106.68 0)
+		(at 91.44 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1453,7 +1764,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3dde10f-ce65-4d17-bcf9-69eb4000d707")
 		(property "Reference" "#PWR08"
-			(at 115.57 113.03 0)
+			(at 91.44 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1462,7 +1773,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 111.76 0)
+			(at 91.44 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1470,7 +1781,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 106.68 0)
+			(at 91.44 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1479,7 +1790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 106.68 0)
+			(at 91.44 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1488,7 +1799,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 106.68 0)
+			(at 91.44 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,43 +1824,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Management:LTC4357DCB")
-		(at 127 100.33 0)
+		(lib_id "Device:R_Small")
+		(at 124.46 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b41ca763-ecad-4d59-bff6-a65be3934bee")
-		(property "Reference" "U1"
-			(at 139.7 93.9098 0)
+		(uuid "fecad7f0-7ac1-49ce-8e90-22965c0035e9")
+		(property "Reference" "R3"
+			(at 127 113.0299 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "LTC4357DCB"
-			(at 139.7 96.4498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:DFN-6-1EP_3x2mm_P0.5mm_EP1.65x1.35mm"
-			(at 133.35 104.14 0)
+		(property "Value" "1k"
+			(at 127 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/4357fd.pdf"
-			(at 127 106.68 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 124.46 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1557,8 +1860,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ideal diode controller, 9-80V operation, DFN-6"
-			(at 127 100.33 0)
+		(property "Datasheet" "~"
+			(at 124.46 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1566,35 +1869,29 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "18fd7ec9-1437-4683-95fd-6dd2a9daa9fa")
-		)
-		(pin "5"
-			(uuid "24c82eee-1e82-49d2-b5a5-62b0bc056dfc")
-		)
-		(pin "3"
-			(uuid "c60758f1-2df4-40a3-857a-d46ea10d3c22")
-		)
-		(pin "4"
-			(uuid "bbad9b37-e9b3-46ab-b2f9-ea20169174c8")
+		(property "Description" "Resistor, small symbol"
+			(at 124.46 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "cd94ce1e-f3b0-4123-a4bb-fcad46d6b5b1")
+			(uuid "842d8232-34ad-4bb1-8a9c-418b328a9276")
 		)
-		(pin "7"
-			(uuid "c3c49d59-e24a-4261-80d0-b6f41c53fcad")
-		)
-		(pin "6"
-			(uuid "e439466b-e9bc-4fa5-8c16-0b83eb8b85be")
+		(pin "2"
+			(uuid "b45650e8-bbb1-4bb1-8af8-658d7f60376e")
 		)
 		(instances
 			(project "BatteryBackup"
 				(path "/7a4f4d51-a773-4c8a-9ecd-90b5a3bf812e/872127cf-2db0-4401-823f-81109a28809d"
-					(reference "U2")
+					(reference "R4")
 					(unit 1)
 				)
 				(path "/7a4f4d51-a773-4c8a-9ecd-90b5a3bf812e/dfa92feb-fac2-4928-8cb8-e6a77f3a865b"
-					(reference "U1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
